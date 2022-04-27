@@ -1,4 +1,91 @@
+/* селектор {
+  властивість1: значення;
+  властивість2: значення;
+  властивість3: значення;
+} */
+
+/* селектор тега */
 body {
-  background-color: chocolate;
+  background-color: rgb(240, 236, 233);
   font-size: 14px;
+}
+ul {
+  list-style: none;
+}
+p {
+  font-size: 20px;
+  color: blueviolet;
+}
+
+/* селектор класу */
+.link {
+  color: hotpink;
+}
+.title {
+  color: tomato;
+}
+.button {
+  background-color: black;
+}
+
+/* селектор id */
+#features {
+  background-color: azure;
+}
+
+/* селектор атрибуту */
+button[type] {
+  font-size: 25px;
+}
+button[type='button'] {
+  font-size: 25px;
+}
+
+/* комбінація селекторів */
+
+.header .main-navigation {
+  background-color: thistle;
+}
+
+.header .item {
+  font-size: 30px;
+}
+
+.list button {
+  color: red;
+}
+
+/* селектор дитини */
+
+/* на будь-якому рівні вкладенності */
+.item > .link {
+  color: brown;
+}
+
+/* на одному рівні вкладенності */
+.list .link {
+  color: chartreuse;
+}
+.header .text:hover {
+  color: white;
+  background-color: blanchedalmond;
+}
+
+.link {
+  color: tomato;
+}
+
+.link:hover {
+  color: teal;
+}
+
+.link:focus {
+  color: yellowgreen;
+}
+.link:active {
+  color: rgb(94, 97, 89);
+}
+
+.link:visited {
+  color: red;
 }
