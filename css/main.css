@@ -1,0 +1,41 @@
+body {
+  height: 100px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 150px;
+
+  border: 20px dashed tomato;
+  margin: 50px;
+
+  background-color: blueviolet;
+  color: white;
+}
+
+.inner-box {
+  box-sizing: border-box;
+  width: 585px;
+  height: 240px;
+  padding: 30px 40px;
+}
+.box-1 {
+  margin-top: 50px;
+  margin-left: 300px;
+}
