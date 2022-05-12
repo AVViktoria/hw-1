@@ -499,6 +499,16 @@ img {
   color: #303030;
 }
 
+.gallery .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.gallery .item {
+  margin: 15px;
+}
+
 /**
   |============================
   | Footer section
